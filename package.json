@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "packageManager": "pnpm@7.9.0",
   "author": "Ray <nn_201312@163.com> (@so1ve)",
-  "description": "",
-  "keywords": [],
+  "description": "Sleep function for js.",
+  "keywords": [
+    "sleep"
+  ],
   "homepage": "https://github.com/so1ve/zzzzzz#readme",
   "repository": {
     "type": "git",
