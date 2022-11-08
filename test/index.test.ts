@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { sleep, sleepSync } from "../src/index";
 
-const offsetHandler = (time: number) => time > 990 && time < 1010;
+const offsetHandler = (time: number) => time > 900 && time < 1100;
 
 describe("zzzzzz...", () => {
   it("sleep", async () => {
