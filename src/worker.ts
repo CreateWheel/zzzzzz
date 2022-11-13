@@ -1,6 +1,6 @@
 const AB = new Int32Array(new SharedArrayBuffer(4));
 /**
- * Adapted froam https://jasonformat.com/javascript-sleep
+ * Adapted from https://jasonformat.com/javascript-sleep
  * @see https://jasonformat.com/javascript-sleep
  * @author Jason Miller
  */
