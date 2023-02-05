@@ -7,9 +7,11 @@ Sleep well, JavaScript...
 ## Usage
 
 ```ts
-import { sleep } from "zzzzzz";
+import { sleep, sleepSync } from "zzzzzz";
 
 await sleep(1000);
+
+sleepSync(1000);
 ```
 
 ## License
