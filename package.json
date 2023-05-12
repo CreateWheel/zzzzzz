@@ -1,4 +1,4 @@
-{ 
+{
   "name": "zzzzzz",
   "version": "0.1.0",
   "packageManager": "pnpm@7.32.4",
@@ -45,14 +45,14 @@
   ],
   "scripts": {
     "build": "rimraf dist && puild",
-    "watch": "puild --watch",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",
     "release": "bumpp --commit --push --tag && pnpm publish",
     "start": "tsx src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "watch": "puild --watch"
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.0",
