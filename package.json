@@ -45,19 +45,19 @@
   ],
   "scripts": {
     "build": "rimraf dist && puild",
-    "watch": "puild --watch",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",
     "release": "bumpp --commit --push --tag && pnpm publish",
     "start": "tsx src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "watch": "puild --watch"
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.0",
     "@babel/types": "^7.18.10",
-    "@so1ve/eslint-config": "^0.28.1",
+    "@so1ve/eslint-config": "^0.82.0",
     "@types/node": "^18.7.6",
     "bumpp": "^9.0.0",
     "eslint": "^8.22.0",

@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+
 import { sleep, sleepSync } from "../src/index";
 
 const offsetHandler = (time: number) => time > 900 && time < 1100;
