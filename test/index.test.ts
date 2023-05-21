@@ -9,6 +9,7 @@ describe("zzzzzz...", () => {
     const start = Date.now();
     await sleep(1000);
     const time = offsetHandler(Date.now() - start);
+
     expect(true).toEqual(time);
   });
 
@@ -16,6 +17,7 @@ describe("zzzzzz...", () => {
     const start = Date.now();
     sleepSync(1000);
     const time = offsetHandler(Date.now() - start);
+
     expect(true).toEqual(time);
   });
 });
