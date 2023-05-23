@@ -1,38 +1,36 @@
 lockfileVersion: 5.4
 
-importers:
+specifiers:
+  '@antfu/ni': ^0.21.0
+  '@babel/types': ^7.18.10
+  '@so1ve/eslint-config': ^0.92.0
+  '@types/node': ^18.7.6
+  bumpp: ^9.0.0
+  eslint: ^8.22.0
+  jiti: ^1.14.0
+  pnpm: ^7.9.0
+  puild: ^1.2.3
+  rimraf: ^3.0.2
+  tsx: ^3.8.2
+  typescript: ^5.0.0
+  vite: ^4.0.0
+  vitest: ^0.31.0
 
-  .:
-    specifiers:
-      '@antfu/ni': ^0.21.0
-      '@babel/types': ^7.18.10
-      '@so1ve/eslint-config': ^0.92.0
-      '@types/node': ^18.7.6
-      bumpp: ^9.0.0
-      eslint: ^8.22.0
-      jiti: ^1.14.0
-      pnpm: ^7.9.0
-      puild: ^1.2.3
-      rimraf: ^3.0.2
-      tsx: ^3.8.2
-      typescript: ^5.0.0
-      vite: ^4.0.0
-      vitest: ^0.31.0
-    devDependencies:
-      '@antfu/ni': 0.21.3
-      '@babel/types': 7.21.5
-      '@so1ve/eslint-config': 0.92.0_opaykosi7ysrbskpnffskmbrki
-      '@types/node': 18.16.14
-      bumpp: 9.1.0
-      eslint: 8.41.0
-      jiti: 1.18.2
-      pnpm: 7.32.4
-      puild: 1.3.2_typescript@5.0.4
-      rimraf: 3.0.2
-      tsx: 3.12.7
-      typescript: 5.0.4
-      vite: 4.3.8_@types+node@18.16.14
-      vitest: 0.31.1
+devDependencies:
+  '@antfu/ni': 0.21.3
+  '@babel/types': 7.21.5
+  '@so1ve/eslint-config': 0.92.0_opaykosi7ysrbskpnffskmbrki
+  '@types/node': 18.16.14
+  bumpp: 9.1.0
+  eslint: 8.41.0
+  jiti: 1.18.2
+  pnpm: 7.32.4
+  puild: 1.3.2_typescript@5.0.4
+  rimraf: 3.0.2
+  tsx: 3.12.7
+  typescript: 5.0.4
+  vite: 4.3.8_@types+node@18.16.14
+  vitest: 0.31.1
 
 packages:
 
