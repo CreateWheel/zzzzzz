@@ -13,7 +13,7 @@ describe("zzzzzz...", () => {
     expect(true).toEqual(time);
   });
 
-  it("sleepSync", async () => {
+  it("sleepsync", async () => {
     const start = Date.now();
     sleepSync(1000);
     const time = offsetHandler(Date.now() - start);
